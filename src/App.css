@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "header"
+    "main";
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.CanvasContainer {
+  width: auto;
+  height: auto;
+}
